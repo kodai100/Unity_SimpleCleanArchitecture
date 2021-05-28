@@ -1,0 +1,18 @@
+{
+    "name": "CA.Adapter.Controller",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c1cef62eddc74074caa78d274ab32886",
+        "GUID:cd5ecd9c6add4384b98324855945a027",
+        "GUID:2a83ba4f2f53bb346b2717b09dc8fece"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "CA.View.ControllerView",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cd5ecd9c6add4384b98324855945a027",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

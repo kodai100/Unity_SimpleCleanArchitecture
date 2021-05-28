@@ -1,0 +1,16 @@
+{
+    "name": "CA.View.PresenterView",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1ca563ff7fa1b02418594a81dddacdf9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "CA.Domain.UseCaseInterface",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2a83ba4f2f53bb346b2717b09dc8fece"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

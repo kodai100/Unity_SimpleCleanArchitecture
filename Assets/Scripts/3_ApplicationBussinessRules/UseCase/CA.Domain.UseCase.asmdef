@@ -1,0 +1,21 @@
+{
+    "name": "CA.Domain.UseCase",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c1cef62eddc74074caa78d274ab32886",
+        "GUID:7ecc79aa553e8cd4d887a20805000580",
+        "GUID:9bd18d12732e0ab4eb2dab59bcbe7f11",
+        "GUID:cf289a30cd50d294b97b9b1f3fcf6eb9",
+        "GUID:2a83ba4f2f53bb346b2717b09dc8fece",
+        "GUID:cea3f963c1a7deb4d956ad97346bfa6a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

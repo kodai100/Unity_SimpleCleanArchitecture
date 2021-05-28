@@ -1,0 +1,29 @@
+{
+    "name": "CA.Installer",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:1ca563ff7fa1b02418594a81dddacdf9",
+        "GUID:8bff8455b5effa843bf02e1b92ec1027",
+        "GUID:cd5ecd9c6add4384b98324855945a027",
+        "GUID:04641f43ee8d8344c9b2e3f6b2c3f08e",
+        "GUID:234e24a3b4a205a40a2814ceff85703c",
+        "GUID:cf289a30cd50d294b97b9b1f3fcf6eb9",
+        "GUID:bf6e7676f73a6cf4ea67db3c5cf58526",
+        "GUID:396117249b628ef439c5f776b163a325",
+        "GUID:8d1562ef13cea884fb4848a75dad61c2",
+        "GUID:c1cef62eddc74074caa78d274ab32886",
+        "GUID:661d9565117f8024db65e7d973ca6b40",
+        "GUID:9bd18d12732e0ab4eb2dab59bcbe7f11",
+        "GUID:5661d2a5902aebe48b3fd71bbfadd231"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
