@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 namespace kodai100.CA.View.UIComponents
 {
-    public class VolumeSaveUI : MonoBehaviour, IVolumeSaveUI
+    
+    [RequireComponent(typeof(Button))]
+    public class VolumeUpButtonUI : MonoBehaviour, IVolumeUpControlView
     {
         public event Action Clicked = delegate { };
 

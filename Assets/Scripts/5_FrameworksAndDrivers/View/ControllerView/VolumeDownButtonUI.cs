@@ -7,7 +7,7 @@ namespace kodai100.CA.View.UIComponents
 {
     
     [RequireComponent(typeof(Button))]
-    public class VolumeDownUI : MonoBehaviour, IVolumeDownUI
+    public class VolumeDownButtonUI : MonoBehaviour, IVolumeDownControlView
     {
         public event Action Clicked = delegate { };
 

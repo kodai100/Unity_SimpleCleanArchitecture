@@ -5,7 +5,7 @@ namespace kodai100.CA.View.UIComponents
 {
 
     [RequireComponent(typeof(Text))]
-    public class VolumeTextUI : MonoBehaviour, IVolumeTextUI
+    public class VolumeTextUI : MonoBehaviour, IVolumePresenterView
     {
 
         private Text _textUI;

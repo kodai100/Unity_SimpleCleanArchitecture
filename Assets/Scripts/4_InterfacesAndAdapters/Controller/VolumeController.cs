@@ -11,17 +11,17 @@ namespace kodai100.CA.Adapters.Controllers
 
         private VolumeController(IVolumeUseCase useCase)
         {
-            Object.FindObjectsOfType<MonoBehaviour>().OfType<IVolumeDownUI>().ToList().ForEach(downUI =>
+            Object.FindObjectsOfType<MonoBehaviour>().OfType<IVolumeDownControlView>().ToList().ForEach(downUI =>
             {
                 downUI.AddClickHandler(useCase.VolumeDown);
             });
             
-            Object.FindObjectsOfType<MonoBehaviour>().OfType<IVolumeUpUI>().ToList().ForEach(downUI =>
+            Object.FindObjectsOfType<MonoBehaviour>().OfType<IVolumeUpControlView>().ToList().ForEach(downUI =>
             {
                 downUI.AddClickHandler(useCase.VolumeUp);
             });
             
-            Object.FindObjectsOfType<MonoBehaviour>().OfType<IVolumeSaveUI>().ToList().ForEach(downUI =>
+            Object.FindObjectsOfType<MonoBehaviour>().OfType<IVolumeSaveControlView>().ToList().ForEach(downUI =>
             {
                 downUI.AddClickHandler(useCase.Save);
             });
