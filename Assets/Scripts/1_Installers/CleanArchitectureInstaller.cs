@@ -12,7 +12,10 @@ namespace kodai100.CA.Installers
         public override void InstallBindings()
         {
 
-            Container.Bind<IVolumeDataStore>().To<VolumePlayerPrefsDataStore>().AsSingle();
+            // ### JSONとPlayerPrefsを容易に差し替え可能 ###
+            // Container.Bind<IVolumeDataStore>().To<VolumePlayerPrefsDataStore>().AsSingle();
+            Container.Bind<IVolumeDataStore>().To<VolumeJSONDataStore>().AsSingle();
+            
             Container.Bind<IVolumePresenter>().To<VolumePresenter>().AsSingle();
             Container.Bind<IVolumeRepository>().To<VolumeRepository>().AsSingle();
             Container.Bind<IVolumeUseCase>().To<VolumeUseCase>().AsSingle();
